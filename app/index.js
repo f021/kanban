@@ -1,7 +1,8 @@
-var component = require('./component');
-var app = document.createElement('div');
+import React from 'react'
+import ReactDom from 'react-dom'
+import Redux from 'redux'
 
-document.body.appendChild(app);
+const App = props =>
+  <div>React-Redux</div>
 
-
-app.appendChild(component());
+ReactDom.render(<App />, document.getElementById('root'))
