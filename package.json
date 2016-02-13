@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-es6-boilerplate",
+  "version": "0.1.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "es6"
+  ],
+  "author": "f021 <andrei.fzto@gmail.com> (http://f021.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "1.12.13",
+    "webpack-dev-server": "1.14.1"
+  }
+}
